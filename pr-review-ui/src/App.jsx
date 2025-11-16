@@ -56,7 +56,7 @@ export default function PRReviewUI() {
 
     setLoading(true);
     try {
-      const res = await fetch("http://127.0.0.1:8000/review", {
+      const res = await fetch("https://github-pr-review.onrender.com/review", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
