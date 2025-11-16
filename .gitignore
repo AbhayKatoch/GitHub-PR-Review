@@ -1,0 +1,66 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.so
+
+.env
+.env.*
+*.env
+
+# virtual env
+venv/
+.venv/
+
+# mypy / pyright / typecheck
+.mypy_cache/
+.pyright/
+
+# pytest
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# -----------------------
+# FastAPI / Uvicorn
+# -----------------------
+*.log
+*.sqlite3
+
+# -----------------------
+# Cache / Build
+# -----------------------
+build/
+dist/
+*.egg-info/
+
+# -----------------------
+# Editor / OS
+# -----------------------
+.vscode/
+.idea/
+.DS_Store
+
+
+
+# -----------------------
+# Node / React (if frontend in same repo)
+# -----------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# React build output
+/build/
+/dist/
+
+# -----------------------
+# Misc
+# -----------------------
+*.lock

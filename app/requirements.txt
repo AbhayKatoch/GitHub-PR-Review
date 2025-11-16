@@ -1,0 +1,14 @@
+fastapi
+
+pydantic
+pydantic-extra-types
+
+langchain
+
+python-dotenv
+httpx
+
+unidiff
+
+
+
